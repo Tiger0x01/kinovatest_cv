@@ -1,0 +1,25 @@
+{
+    "exercise": "pushup",
+    "version": "v3",
+    "total_features": 18,
+    "features": [
+        "left_elbow_rom",
+        "right_elbow_rom",
+        "left_elbow_at_bottom",
+        "right_elbow_at_bottom",
+        "elbow_symmetry_mean",
+        "elbow_symmetry_max",
+        "shoulder_symmetry_mean",
+        "shoulder_symmetry_max",
+        "rom_difference",
+        "left_elbow_motion_mean",
+        "right_elbow_motion_mean",
+        "body_alignment_change",
+        "body_angle_min",
+        "body_angle_max",
+        "body_angle_mean",
+        "body_angle_std",
+        "body_angle_at_bottom",
+        "time_to_bottom_ratio"
+    ]
+}

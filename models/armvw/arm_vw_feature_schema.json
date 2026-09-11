@@ -1,0 +1,31 @@
+{
+    "exercise": "ArmVW",
+    "model": "Pipeline(StandardScaler + SVC)",
+    "hyperparameters": {
+        "kernel": "rbf",
+        "C": 1,
+        "gamma": 0.1,
+        "class_weight": "balanced"
+    },
+    "features": [
+        "left_elbow_min",
+        "left_elbow_max",
+        "left_elbow_rom",
+        "right_elbow_min",
+        "right_elbow_max",
+        "right_elbow_rom",
+        "left_shoulder_min",
+        "left_shoulder_max",
+        "left_shoulder_rom",
+        "right_shoulder_min",
+        "right_shoulder_max",
+        "right_shoulder_rom",
+        "elbow_min_difference",
+        "shoulder_min_difference"
+    ],
+    "target": "is_correct",
+    "best_verified_performance": {
+        "logo_f1": 0.6657,
+        "logo_accuracy": 0.6835
+    }
+}

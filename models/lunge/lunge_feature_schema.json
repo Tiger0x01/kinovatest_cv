@@ -1,0 +1,19 @@
+{
+    "exercise": "LegLunge",
+    "model": "KNeighborsClassifier",
+    "hyperparameters": {
+        "n_neighbors": 3,
+        "weights": "uniform",
+        "metric": "euclidean"
+    },
+    "features": [
+        "left_knee_min",
+        "right_knee_min",
+        "left_knee_rom",
+        "right_knee_rom",
+        "torso_angle_mean",
+        "torso_angle_min",
+        "time_to_bottom_ratio"
+    ],
+    "target": "is_correct"
+}

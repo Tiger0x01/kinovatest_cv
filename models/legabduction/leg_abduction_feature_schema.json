@@ -1,0 +1,27 @@
+{
+    "exercise": "LegAbduction",
+    "model": "Pipeline(StandardScaler + SVC)",
+    "hyperparameters": {
+        "kernel": "linear",
+        "C": 0.01,
+        "class_weight": "balanced"
+    },
+    "features": [
+        "left_hip_min",
+        "left_hip_max",
+        "left_hip_rom",
+        "right_hip_min",
+        "right_hip_max",
+        "right_hip_rom",
+        "hip_rom_difference",
+        "left_hip_mean",
+        "right_hip_mean",
+        "time_to_peak_ratio_left",
+        "time_to_peak_ratio_right"
+    ],
+    "target": "is_correct",
+    "best_verified_performance": {
+        "logo_f1": 0.8505,
+        "logo_accuracy": 0.7965
+    }
+}

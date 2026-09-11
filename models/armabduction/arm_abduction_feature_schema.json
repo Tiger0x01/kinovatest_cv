@@ -1,0 +1,26 @@
+{
+    "exercise": "ArmAbduction",
+    "model": "Pipeline(StandardScaler + KNeighborsClassifier)",
+    "hyperparameters": {
+        "n_neighbors": 15,
+        "weights": "distance",
+        "metric": "euclidean"
+    },
+    "features": [
+        "left_shoulder_min",
+        "left_shoulder_max",
+        "left_shoulder_rom",
+        "right_shoulder_min",
+        "right_shoulder_max",
+        "right_shoulder_rom",
+        "left_elbow_mean",
+        "right_elbow_mean",
+        "shoulder_min_difference",
+        "shoulder_rom_difference"
+    ],
+    "target": "is_correct",
+    "best_verified_performance": {
+        "logo_f1": 0.7557,
+        "logo_accuracy": 0.712
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "exercise": "pushup",
+    "version": "v1",
+    "weights": {
+        "body_alignment": 0.5,
+        "elbow_rom": 0.3,
+        "symmetry": 0.15,
+        "timing": 0.05
+    },
+    "body_alignment": {
+        "target": 151.44,
+        "std": 3.63,
+        "ideal_min": 149.0,
+        "bad_max": 139.0
+    },
+    "body_alignment_bottom": {
+        "target": 151.91,
+        "std": 3.54
+    },
+    "elbow_rom": {
+        "ideal_min": 98.0,
+        "ideal_max": 114.0,
+        "min_limit": 60.0,
+        "max_limit": 130.0
+    },
+    "symmetry": {
+        "ideal_max": 4.0,
+        "bad_min": 12.0
+    },
+    "timing": {
+        "target": 0.5105,
+        "std": 0.048
+    }
+}
